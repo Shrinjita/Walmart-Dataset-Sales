@@ -1,0 +1,11 @@
+2025-04-26 11:24:51,704 - INFO - Loading data from Walmart.csv
+2025-04-26 11:24:51,754 - INFO - Data loaded successfully. Shape: (6435, 8)
+2025-04-26 11:24:51,755 - INFO - Columns: ['Store', 'Date', 'Weekly_Sales', 'Holiday_Flag', 'Temperature', 'Fuel_Price', 'CPI', 'Unemployment']
+2025-04-26 11:24:51,769 - ERROR - Error preprocessing data: time data "19-02-2010" doesn't match format "%m-%d-%Y", at position 2. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-04-26 11:24:51,772 - ERROR - Error in main function: time data "19-02-2010" doesn't match format "%m-%d-%Y", at position 2. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.

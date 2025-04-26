@@ -1,0 +1,5 @@
+python-dotenv
+pandas
+google-generativeai
+chromadb
+faiss-python
